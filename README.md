@@ -15,10 +15,10 @@ Thành viên:
 
 Nội dung của các đoạn folder, file:
 
-     Folder Data: Lưu trữ tập dữ liệu gốc; tập dữ liệu sau khi text preprocessing; tập dữ liệu phục vụ text processing
-train_category_split_vie, train_sentiment_vie, train_split_sentiment_vie: tập dữ liệu gốc
-preprocessed_data, preprocessed_data1: tập dữ liệu đã qua bước text preprocessing
-stopword, teencode: tập dữ liệu phục vụ text processing
+     Folder Data: Lưu trữ tập dữ liệu gốc; tập dữ liệu sau khi text preprocessing; tập dữ liệu phục vụ text processing <br>
+train_category_split_vie, train_sentiment_vie, train_split_sentiment_vie: tập dữ liệu gốc <br>
+preprocessed_data, preprocessed_data1: tập dữ liệu đã qua bước text preprocessing <br>
+stopword, teencode: tập dữ liệu phục vụ text processing <br>
      Folder Vectorize: Lưu trữ kết quả chạy 3 mô hình học máy, 1 mô hình học sâu (LSTM) đối với từng phương pháp vectorize tương ứng với tên file và 1 file để hyperparameter tunning mô hình ML, DL
 FrequentBased: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp Frequency Based
 TFIDF: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp TFIDF
