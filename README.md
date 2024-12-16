@@ -16,6 +16,6 @@ Thành viên:
 Nội dung của các đoạn folder, file:
 
      Folder Data: Lưu trữ tập dữ liệu gốc ban đầu; tập dữ liệu sau khi text preprocessing; tập dữ liệu phục vụ text processing: stopword, teencode
-     Folder Vectorize: Lưu trữ kết quả chạy 3 mô hình học máy, 1 mô hình học sâu (LSTM) đối với từng phương pháp vectorize tương ứng với tên file 
+     Folder Vectorize: Lưu trữ kết quả chạy 3 mô hình học máy, 1 mô hình học sâu (LSTM) đối với từng phương pháp vectorize tương ứng với tên file và 1 file để hiệu chỉnh các siêu tham số mô hình ML
      TextprocessingEDA: File lưu trữ hàm để tiền xử lý dữ liệu và phân tích khám phá dữ liệu
      MLTunnig: File lưu trữ quá trình hyperparameter tunning của 3 mô hình học máy
