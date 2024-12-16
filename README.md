@@ -16,17 +16,17 @@ Thành viên:
 Nội dung của các đoạn folder, file:
 
      Folder Data: Lưu trữ tập dữ liệu gốc; tập dữ liệu sau khi text preprocessing; tập dữ liệu phục vụ text processing
-+ train_category_split_vie, train_sentiment_vie, train_split_sentiment_vie: tập dữ liệu gốc
-+ preprocessed_data, preprocessed_data1: tập dữ liệu đã qua bước text preprocessing
-+ stopword, teencode: tập dữ liệu phục vụ text processing
+train_category_split_vie, train_sentiment_vie, train_split_sentiment_vie: tập dữ liệu gốc
+preprocessed_data, preprocessed_data1: tập dữ liệu đã qua bước text preprocessing
+stopword, teencode: tập dữ liệu phục vụ text processing
      Folder Vectorize: Lưu trữ kết quả chạy 3 mô hình học máy, 1 mô hình học sâu (LSTM) đối với từng phương pháp vectorize tương ứng với tên file và 1 file để hyperparameter tunning mô hình ML, DL
-+ FrequentBased: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp Frequency Based
-+ TFIDF: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp TFIDF
-+ WordIndex: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp WordIndexing
-+ PreTraiModel: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp ProBert
-+ MLTunning: Điều chỉnh các siêu tham số của 3 mô hình ML
-+ CATEGORY: Sử dụng Frequency Based và RandomForest đề tạo mô hình cho việc dự đoán chủ đề bình luận
-+ UNG_DUNG: Ứng dụng vào thực tế mô hình tốt nhất được chọn trong các mô hình được train để dùng cho tập test
+FrequentBased: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp Frequency Based
+TFIDF: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp TFIDF
+WordIndex: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp WordIndexing
+PreTraiModel: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp ProBert
+MLTunning: Điều chỉnh các siêu tham số của 3 mô hình ML
+CATEGORY: Sử dụng Frequency Based và RandomForest đề tạo mô hình cho việc dự đoán chủ đề bình luận
+UNG_DUNG: Ứng dụng vào thực tế mô hình tốt nhất được chọn trong các mô hình được train để dùng cho tập test
      Folder Model: Lưu trữ mô hình tốt nhất để ứng dụng vào thực thế
      PreprocessingEDA: File lưu trữ hàm để tiền xử lý dữ liệu và phân tích khám phá dữ liệu
 
