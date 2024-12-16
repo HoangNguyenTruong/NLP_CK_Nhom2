@@ -20,7 +20,7 @@ train_category_split_vie, train_sentiment_vie, train_split_sentiment_vie: tập 
 preprocessed_data, preprocessed_data1: tập dữ liệu đã qua bước text preprocessing <br>
 stopword, teencode: tập dữ liệu phục vụ text processing <br>
 testset: tập dữ liệu phục vụ việc kiểm tra ứng dụng mô hình trong thực tế <br>
-* Folder Vectorize: Lưu trữ kết quả chạy 3 mô hình học máy, 1 mô hình học sâu (LSTM) đối với từng phương pháp vectorize tương ứng với tên file và 1 file để hyperparameter tunning mô hình ML, DL <br>
+* Folder Vectorize: <br>
 FrequentBased: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp Frequency Based <br>
 TFIDF: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp TFIDF <br>
 WordIndex: Lưu trữ 3 mô hình ML, 1 mô hình DL đối với phương pháp WordIndexing <br>
